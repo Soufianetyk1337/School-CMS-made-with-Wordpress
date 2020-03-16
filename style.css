@@ -1,0 +1,221 @@
+
+html {
+    font-size: 100%;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    touch-action: manipulation;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    word-wrap: break-word;
+    overflow-x: hidden;
+    color: #333;
+}
+
+a,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+input,
+li,
+p,
+span,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.5;
+    font-weight: inherit;
+}
+
+.font-beyond,
+h1,
+h2,
+h3 {
+    font-family: 'beyond_the_mountainsregular', sans-serif;
+}
+
+p {
+    line-height: 1.7;
+    font-size: 1.05em;
+    font-weight: 400;
+    color: #555;
+}
+
+h1 {
+    font-size: 7.5em;
+    line-height: 1.4;
+}
+
+h2 {
+    font-size: 4em;
+    line-height: 1.4;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+h4 {
+    font-size: 1.8em;
+}
+
+h5 {
+    font-size: 1.3em;
+}
+
+h6 {
+    font-size: 0.95em;
+    letter-spacing: 1px;
+}
+
+a,
+button {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    line-height: 1.3;
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+a b.light-color:hover,
+a:active,
+a:focus,
+a:hover,
+button:active,
+button:focus,
+button:hover {
+    text-decoration: none;
+    color: #EF0031;
+}
+
+b {
+    font-weight: 700;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    line-height: 1.6;
+    font-size: 0.9em;
+}
+
+span {
+    display: inline-block;
+}
+
+button {
+    outline: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+
+/*ICONS*/
+
+.icon-gradient {
+    display: block;
+    height: 80px;
+    width: 80px;
+    background: url("images/icons.png") no-repeat;
+    background-size: cover;
+    background-position: 0;
+}
+
+.icon-gradient.icon-pizza {
+    background-position: 0 0;
+}
+.icon-gradient.icon-sea-food {
+    background-position: -239px 0;
+}
+.icon-gradient.icon-pasta {
+    background-position: -159px 0;
+}
+.icon-gradient.icon-salad {
+    background-position: -79px 0;
+}
+
+.icon-box {
+    display: block;
+    height: 50px;
+    width: 50px;
+    background: url("images/icon-boxes.png") no-repeat;
+    background-size: cover;
+    background-position: 0;
+}
+
+
+
+.icon-gradient {
+    background: url("images/icons.png") no-repeat;
+}
+.icon-box {
+    background: url("images/icon-boxes.png") no-repeat;
+}
+.bg-seller {
+    background: url("images/sellers-1-1600x1600.jpg") no-repeat;
+}
+
+.bg-1 {
+    background: url("images/slider_1_1920_1200.jpg") no-repeat center;
+}
+
+.bg-2 {
+    background: url("images/story_bg_1.png") no-repeat center;
+}
+
+.bg-3 {
+    background: url("images/story_bg_2.png") no-repeat center;
+}
+
+.bg-4 {
+    background: url("images/slider_2_1920_600.jpg") no-repeat center;
+}
+
+.bg-5 {
+    background: url("images/slider_3_1920_600.jpg") no-repeat center;
+}
+
+.bg-6 {
+    background: url("images/slider_4_1920_600.jpg") no-repeat center;
+}
+
+.bg-7 {
+    background: url("images/slider_5_1920_600.jpg") no-repeat center;
+}
+
+.bg-8 {
+    background: url("images/slider_6_1920_600.jpg") no-repeat center;
+}
+footer {
+    background: url("images/footer_1600x800.jpg") no-repeat;
+}
+.footer-bg-1 {
+    background-image: url("images/footer-1.png");
+}
