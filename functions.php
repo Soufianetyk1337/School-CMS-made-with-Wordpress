@@ -36,4 +36,10 @@ function addjs(){
 }
  add_action('wp_enqueue_scripts','addjs');
 
+ register_nav_menus(
+	array(
+		'top-menu' => __('Top Menu' ,'theme'),
+	)
+);
+
 ?>
