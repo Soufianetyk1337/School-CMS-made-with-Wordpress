@@ -25,7 +25,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> IHM T
             </div>
         </div>
     </footer>
-    <? wp_footer();?>
+    <script src="<?php echo bloginfo('template_url');?>/js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="<?php echo bloginfo('template_url');?>/js/bootstrap/popper.min.js"></script>
+    <script src="<?php echo bloginfo('template_url');?>/js/bootstrap/bootstrap.min.js"></script>
+    <script src="<?php echo bloginfo('template_url');?>/js/plugins/plugins.js"></script>
+    <script src="<?php echo bloginfo('template_url');?>/js/active.js"></script>
+    <?php wp_footer();?>
 </body>
 ​
 </html>

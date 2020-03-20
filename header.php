@@ -10,8 +10,15 @@
 ​
     <title>EST Sidi Bennour</title>
     <link rel="icon" href="<?php echo bloginfo('template_url')?>/img/core-img/favicon.ico">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,600,700">
-​
+    <link rel="stylesheet" href="<?php echo bloginfo('stylesheet_url')?>">
+    <link rel="stylesheet" href="<?php echo bloginfo('template_url')?>/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo bloginfo('template_url')?>/css/bootstrap.css">
+    <link rel="stylesheet" href="<?php echo bloginfo('template_url')?>/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?php echo bloginfo('template_url')?>/css/animate.css">
+    <link rel="stylesheet" href="<?php echo bloginfo('template_url')?>/css/magnific-popup.css">
+    <link rel="stylesheet" href="<?php echo bloginfo('template_url')?>/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo bloginfo('template_url')?>/css/classy-nav.min.css">
+
 </head>
 ​
 <body>
@@ -34,10 +41,15 @@
                         <div class="classycloseIcon">
                             <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                         </div>
-​
-                        <!-- Nav Start -->
-                        <div class="classynav">
-                            
+​                        <div class="classynav">
+                            <ul>
+                                <li><a href="#">Home</a></li>  
+                                <li><a href="#">Courses</a></li>
+                                <li><a href="#">Instructors</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+
                             <!-- Search Button -->
                             <div class="search-area">
                                 <form action="#" method="post">
@@ -46,7 +58,6 @@
                                 </form>
                             </div>
                         </div>
-                        <!-- Nav End -->
                     </div>
                 </nav>
             </div>

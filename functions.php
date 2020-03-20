@@ -7,8 +7,6 @@ wp_register_style('bootstrap-min' , get_template_directory_uri() . '/css/bootstr
 wp_enqueue_style('bootstrap-min');
 wp_register_script('animate', get_template_directory_uri() . '/css/animate.css');
 wp_enqueue_script('animate');
-wp_register_script('font', get_template_directory_uri() . '/css/beyond_the_mountains-webfont.css');
-wp_enqueue_script('font');
 wp_register_script('nav', get_template_directory_uri() . '/css/classy-nav.min.css');
 wp_enqueue_script('nav');
 wp_register_script('fonts', get_template_directory_uri() . '/css/font-awesome.min.css');
