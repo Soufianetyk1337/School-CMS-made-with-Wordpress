@@ -51,4 +51,160 @@
             </div>
         </div>
     </section>
+
+      <section class="popular-courses-area section-padding-100-0" style="background-image: url(img/core-img/texture.png);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading">
+                        <h3>Popular Online Courses</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                        <img src="<?php echo bloginfo('template_url');?>/img/bg-img/c1.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>English Grammar</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Sarah Parker</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">Art &amp; Design</a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis</p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+                        <div class="seat-rating-fee d-flex justify-content-between">
+                            <div class="seat-rating h-100 d-flex align-items-center">
+                                <div class="seat">
+                                    <i class="fa fa-user" aria-hidden="true"></i> 10
+                                </div>
+                                <div class="rating">
+                                    <i class="fa fa-star" aria-hidden="true"></i> 4.5
+                                </div>
+                            </div>
+                            <div class="course-fee h-100">
+                                <a href="#" class="free">Free</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="<?php echo bloginfo('template_url');?>/img/bg-img/c2.jpg" alt="">
+                        <div class="course-content">
+                            <h4>Vocabulary</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Sarah Parker</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">Art &amp; Design</a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis</p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+                        <div class="seat-rating-fee d-flex justify-content-between">
+                            <div class="seat-rating h-100 d-flex align-items-center">
+                                <div class="seat">
+                                    <i class="fa fa-user" aria-hidden="true"></i> 10
+                                </div>
+                                <div class="rating">
+                                    <i class="fa fa-star" aria-hidden="true"></i> 4.5
+                                </div>
+                            </div>
+                            <div class="course-fee h-100">
+                                <a href="#">$20</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Popular Course -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="750ms">
+                        <img src="<?php echo bloginfo('template_url');?>/img/bg-img/c3.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                            <h4>Expository writing</h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#">Sarah Parker</a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#">Art &amp; Design</a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis</p>
+                        </div>
+                        <!-- Seat Rating Fee -->
+                        <div class="seat-rating-fee d-flex justify-content-between">
+                            <div class="seat-rating h-100 d-flex align-items-center">
+                                <div class="seat">
+                                    <i class="fa fa-user" aria-hidden="true"></i> 10
+                                </div>
+                                <div class="rating">
+                                    <i class="fa fa-star" aria-hidden="true"></i> 4.5
+                                </div>
+                            </div>
+                            <div class="course-fee h-100">
+                                <a href="#">$45</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="register-now section-padding-100-0 d-flex justify-content-between align-items-center" style="background-image: url(img/core-img/texture.png);">
+        <!-- Register Contact Form -->
+        <div class="register-contact-form mb-100 wow fadeInUp" data-wow-delay="250ms">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="forms">
+                            <h4>Courses For Free</h4>
+                            <form action="#" method="post">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="text" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="email" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="phone" placeholder="Phone">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="site" placeholder="Site">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn clever-btn w-100">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Register Now Countdown -->
+        <div class="register-now-countdown mb-100 wow fadeInUp" data-wow-delay="500ms">
+            <h3>Register Now</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum laoreet elit, sit amet tincidunt mauris ultrices vitae. Donec bibendum tortor sed mi faucibus vehicula. Sed erat lorem</p>
+            <!-- Register Countdown -->
+            <div class="register-countdown">
+                <div class="events-cd d-flex flex-wrap" data-countdown="2019/03/01"></div>
+            </div>
+        </div>
+    </section>
 <?php get_footer();?>
