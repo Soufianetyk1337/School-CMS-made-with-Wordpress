@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <? wp_head();?>
+    <?php wp_head();?>
 ​
     <title>EST Sidi Bennour</title>
     <link rel="icon" href="<?php echo bloginfo('template_url')?>/img/core-img/favicon.ico">
@@ -42,14 +42,47 @@
                             <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                         </div>
 ​                        <div class="classynav">
-                            <ul>
-                                <li><a href="#">Home</a></li>  
+                            
+                <?php
+                $var = wp_nav_menu(
+                        $args = array(
+                        'theme_location' => 'top-menu',
+                        'menu_id' =>  'main-menu',
+                        'container' => 'ul',
+                        'menu_class' => 'classynav',
+                        'echo' => false
+                        )
+                    );?>
+
+                    <?php if(has_nav_menu('top-menu')): ?>
+                        <?php echo $var;?>
+                    <?php else: ?>
+                        <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Pages</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">Courses</a></li>
+                                        <li><a href="#">Single Courses</a></li>
+                                        <li><a href="#">Instructors</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Single Blog</a></li>
+                                        <li><a href="#">Regular Page</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="#">Courses</a></li>
                                 <li><a href="#">Instructors</a></li>
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="#">Contact</a></li>
                             </ul>
 
+                    <?php endif;?>
+            
+           
+
+
+                       
                             <!-- Search Button -->
                             <div class="search-area">
                                 <form action="#" method="post">
