@@ -4,10 +4,58 @@
 <?php get_header();?>
 <div class="breadcumb-area">
     </div>
-    <div class="clever-catagory bg-img d-flex align-items-center justify-content-center p-3" style="background-image: url(<?php echo bloginfo('template_url')?>/img/bg-img/bg2.jpg);">
-        <h3>Art &amp; Design</h3>
+    <?php $hero = get_field('hero');?>
+    <?php if($hero['image']):?>
+    <div class="clever-catagory bg-img d-flex align-items-center justify-content-center p-3" style="background-image: url(<?php echo $hero['image']?>);">
+
+<?php else:?>
+
+    <div class="clever-catagory bg-img d-flex align-items-center justify-content-center p-3" style="background-image: url(<?php echo bloginfo('template_url')?>/img/bg-img/swe.jpg);">
+<?php endif;?>
+        <?php if($hero['title']):?>
+        <h3><?php echo $hero['title'];?></h3>
+        <?php else: ?>
+            <h3>Software Engineering</h3>  
+        <?php endif;?>
     </div>
 
+
+<?php if( have_rows('courses') ): ?>
+
+        <section class="popular-courses-area section-padding-100">
+        <div class="container">
+            <div class="row">
+             
+
+<?php while( have_rows('courses') ): the_row(); 
+
+$image = get_sub_field('image');
+$teacher = get_sub_field('teacher');
+$module = get_sub_field('module');
+$description = get_sub_field('description');
+$name = get_sub_field('name');
+    ?>
+
+<div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="250ms">
+                        <img src="<?php echo $image;?>" alt="">
+                        <div class="course-content">
+                            <h4><?php echo $name;?></h4>
+                            <div class="meta d-flex align-items-center">
+                                <a href="#"><?php echo $teacher;?></a>
+                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                <a href="#"><?php echo $module?></a>
+                            </div>
+                            <p><?php echo $description;?></p>
+                        </div>
+                        </div>
+</div>
+
+<?php endwhile; ?>
+</div>
+</div>
+</section>
+<?php else: ?>
     <section class="popular-courses-area section-padding-100">
         <div class="container">
             <div class="row">
@@ -177,4 +225,6 @@
         
         </div>
     </section>
+    <?php endif; ?>
+
     <?php get_footer();?>
