@@ -246,7 +246,7 @@ Template Name : Home
                                 </div>
                             </div>
                             <div class="course-fee h-100">
-                                <a href="#">$20</a>
+                                <a href="#" class="free">Free</a>
                             </div>
                         </div>
                     </div>
@@ -276,7 +276,7 @@ Template Name : Home
                                 </div>
                             </div>
                             <div class="course-fee h-100">
-                                <a href="#">$45</a>
+                                <a href="#" class="free">Free</a>
                             </div>
                         </div>
                     </div>
