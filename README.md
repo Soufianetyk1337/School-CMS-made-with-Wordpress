@@ -67,7 +67,11 @@ and the final look
 
 
 
-# NB : if you dont generate the menu from wordpress the default menu wont work because they don't have a reference 
+# NB : if you dont generate the menu from wordpress the default menu wont work because they don't have a reference and the page in the ACF plugin should be linked like this  Page name equals to template name
+
+![Alt Text](https://github.com/Soufianetyk1337/IHMProject-/blob/master/link.png)  
+
+
 
 
 
